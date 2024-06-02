@@ -21,9 +21,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Easy\" />
     <Folder Include="Medium\" />
     <Folder Include="Hard\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LeetCode.Solutions\LeetCode.Solutions.csproj" />
   </ItemGroup>
 
 </Project>
