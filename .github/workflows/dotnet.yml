@@ -31,5 +31,5 @@ jobs:
     - name: Build LeetCode.Solutions
       run: dotnet build LeetCode.Solutions/LeetCode.Solutions.csproj --configuration Release
       
-    - name: Test LeetCode.Solutions
-      run: dotnet test LeetCode.Tests/LeetCode.Tests.csproj --configuration Release --no-build --verbosity normal
+    - name: Test LeetCode.Tests
+      run: dotnet test LeetCode.Tests --configuration Release --no-build --verbosity normal
