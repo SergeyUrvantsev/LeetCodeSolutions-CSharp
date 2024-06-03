@@ -74,6 +74,19 @@ dotnet test
 
 While this repository primarily serves as a personal project, contributions are welcome via pull requests. If you have improvements to existing solutions or new solutions to add, feel free to submit a pull request. 🛠️
 
+## Workflows
+
+### dotnet.yml
+
+The `dotnet.yml` file in the `.github/workflows` directory contains the GitHub Actions workflow configuration for building and testing the project. This workflow runs on every push to the `main` branch and every pull request into the `main` branch. It performs the following tasks:
+- Restores dependencies for the LeetCode.Solutions project.
+- Restores dependencies for the LeetCode.Tests project.
+- Builds the LeetCode.Solutions project in Release configuration.
+- Runs the tests for the LeetCode.Tests project in Release configuration.
+
+For more information, please refer to the [dotnet.yml](.github/workflows/dotnet.yml) file.
+
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 📄
