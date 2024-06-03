@@ -4,6 +4,16 @@ Welcome to the LeetCodeSolutions-CSharp repository! 🚀 This repository contain
 
 You can find me on LeetCode at [SergeyUrv](https://leetcode.com/u/SergeyUrv/) 😊.
 
+## Table of Contents
+
+- [Structure](#structure)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Workflows](#workflows)
+- [Problem Analyses and Comments](#problem-analyses-and-comments)
+- [Contributing](#contributing)
+- [License](#license)
+
 ## Structure
 
 The project is structured into two main directories:
@@ -33,7 +43,7 @@ To get started with the LeetCode Solutions project, follow these steps:
 ### Prerequisites
 
 Make sure you have the following installed:
-- [.NET SDK](https://dotnet.microsoft.com/download) for running the project and tests. 💻
+- [.NET SDK](https://dotnet.microsoft.com/download) for running the project and tests.
 
 ### Setup
 
@@ -70,10 +80,6 @@ cd LeetCode.Tests
 dotnet test
 ```
 
-### Contributing
-
-While this repository primarily serves as a personal project, contributions are welcome via pull requests. If you have improvements to existing solutions or new solutions to add, feel free to submit a pull request. 🛠️
-
 ## Workflows
 
 ### dotnet.yml
@@ -86,7 +92,14 @@ The `dotnet.yml` file in the `.github/workflows` directory contains the GitHub A
 
 For more information, please refer to the [dotnet.yml](.github/workflows/dotnet.yml) file.
 
+## Problem Analyses and Comments
 
+- [1713. Minimum Operations to Make a Subsequence](https://leetcode.com/problems/minimum-operations-to-make-a-subsequence/description/): [Analyzing Complexity Operations for Subsequence Transformation](LeetCode.Solutions/Hard/1713.%20Minimum%20Operations%20to%20Make%20a%20Subsequence/Analyzing_Complexity_Operations_for_Subsequence_Transformation.md)
+
+## Contributing
+
+While this repository primarily serves as a personal project, contributions are welcome via pull requests. If you have improvements to existing solutions or new solutions to add, feel free to submit a pull request. 🛠️
+  
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 📄
