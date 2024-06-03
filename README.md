@@ -94,6 +94,7 @@ For more information, please refer to the [dotnet.yml](.github/workflows/dotnet.
 
 ## Problem Analyses and Comments
 
+- [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/): [Efficient Median Calculation Using Binary Search](LeetCode.Solutions/Hard/4.%20Median%20of%20Two%20Sorted%20Arrays/Efficient_Median_Calculation_Using_Binary_Search.md)
 - [1713. Minimum Operations to Make a Subsequence](https://leetcode.com/problems/minimum-operations-to-make-a-subsequence/description/): [Analyzing Complexity Operations for Subsequence Transformation](LeetCode.Solutions/Hard/1713.%20Minimum%20Operations%20to%20Make%20a%20Subsequence/Analyzing_Complexity_Operations_for_Subsequence_Transformation.md)
 
 ## Contributing
