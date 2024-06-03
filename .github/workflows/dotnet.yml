@@ -22,14 +22,11 @@ jobs:
       with:
         dotnet-version: 8.0.x
 
-    - name: Restore dependencies for LeetCode.Solutions
-      run: dotnet restore LeetCode.Solutions/LeetCode.Solutions.csproj
-
-    - name: Restore dependencies for LeetCode.Tests
-      run: dotnet restore LeetCode.Tests/LeetCode.Tests.csproj
-      
+    - name: Restore dependencies
+      run: dotnet restore
+ 
     - name: Build LeetCode.Solutions
-      run: dotnet build LeetCode.Solutions/LeetCode.Solutions.csproj --configuration Release
-      
+      run: dotnet build --configuration Release --no-restore
+ 
     - name: Test LeetCode.Tests
-      run: dotnet test LeetCode.Tests --configuration Release --no-build --verbosity normal
+      run: dotnet test --no-restore
