@@ -21,10 +21,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Hard\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\LeetCode.Solutions\LeetCode.Solutions.csproj" />
   </ItemGroup>
 
