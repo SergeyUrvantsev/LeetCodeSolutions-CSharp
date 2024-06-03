@@ -24,6 +24,9 @@ jobs:
 
     - name: Restore dependencies for LeetCode.Solutions
       run: dotnet restore LeetCode.Solutions/LeetCode.Solutions.csproj
+
+    - name: Restore dependencies for LeetCode.Tests
+      run: dotnet restore LeetCode.Tests/LeetCode.Tests.csproj
       
     - name: Build LeetCode.Solutions
       run: dotnet build LeetCode.Solutions/LeetCode.Solutions.csproj --configuration Release
