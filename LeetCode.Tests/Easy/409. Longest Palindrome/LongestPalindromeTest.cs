@@ -15,7 +15,7 @@ namespace LeetCode.Tests.Easy._409._Longest_Palindrome
         [InlineData("a", 1)]
         [InlineData("aA", 1)]
         [InlineData("aaeqfq", 5)]
-        public void TestLongestCommonPrefix(string str, int expected)
+        public void TestLongestPalindrome(string str, int expected)
         {
             // Arrange
             LongestPalindrome solution = new LongestPalindrome();
