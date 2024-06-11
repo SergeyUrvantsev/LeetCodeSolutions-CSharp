@@ -13,7 +13,7 @@ namespace LeetCode.Tests.Easy._1051._Height_Checker
         [InlineData(new int[] { 1, 1, 4, 2, 1, 3 }, 3)]
         [InlineData(new int[] { 5, 1, 2, 3, 4 }, 5)]
         [InlineData(new int[] { 1, 2, 3, 4, 5 }, 0)]
-        public void TestLongestPalindrome(int[] heights, int expected)
+        public void TestHeightChecker(int[] heights, int expected)
         {
             // Arrange
             var solution = new HeightChecker();
