@@ -10,7 +10,7 @@ namespace LeetCode.Solutions.Hard._330._Patching_Array
     {
         public int Solve(int[] nums, int n)
         {
-            var target = 0l; 
+            var target = 0L; 
             var patches = 0; 
             var index = 0;
 
