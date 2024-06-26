@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
+using LeetCode.Solutions.Common;
 
 namespace LeetCode.Solutions.Medium._1038._Binary_Search_Tree_to_Greater_Sum_Tree
 {
